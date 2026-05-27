@@ -18,3 +18,4 @@ print(f"Hi,{name}!")
 print(f"You are travelling this year to {this_year_destination}. ")
 print(f"Your daily budget is {daily_budget} and you will have in total {total_budget}€. ")
 print("You are so adventurous!")
+
