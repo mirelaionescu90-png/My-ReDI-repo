@@ -1,1 +1,1 @@
-# My-ReDI-repo
+This folder contains exercises at ReDI School, Introduction to programming course.
