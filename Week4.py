@@ -85,3 +85,32 @@ if score:
     print(f"You scored {score} points.")
 else:
     print("You scored zero - better luck next time!")
+
+
+score = int(input("Enter your score: "))
+result = "passed" if score >= 60 else "failed"
+print(f"You {result} the exam.")
+
+
+temperature = float(input("Temperature in °C: "))
+feeling = "warm" if temperature >= 20 else "cold"
+print(f"It feels {feeling} outside.")
+
+
+name = input("Your name: ")
+greeting = f"Hello, {name}!" if name else "Hello, stranger!"
+print(greeting)
+
+
+x = 15
+y = 10
+
+if x > y:
+    if x > 20:
+        print("x is large")
+    else:
+        print("x is medium")
+elif x == y:
+    print("x and y are equal")
+else:
+    print("y is greater")
