@@ -43,3 +43,14 @@ elif x == y:
     print("equal")
 else:
     print("y")
+
+
+age = 22
+
+if age >= 18:
+    if age >= 65:
+        print("Senior")
+    else:
+        print("Adult")
+else:
+    print("Minor")
