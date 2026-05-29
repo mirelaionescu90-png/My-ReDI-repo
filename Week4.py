@@ -114,3 +114,17 @@ elif x == y:
     print("x and y are equal")
 else:
     print("y is greater")
+
+
+x = 25
+y = 10
+
+if x > y:
+    if x > 20:
+        print("x is large")
+    else:
+        print("x is medium")
+elif x == y:
+    print("x and y are equal")
+else:
+    print("y is greater")
